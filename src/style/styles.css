@@ -1,0 +1,32 @@
+/* Head Container */
+.head-container{
+    font-family: 'Londrina Solid', cursive;
+    background-color: #cccccc;
+    background-image: url("./images/cinnamonStar.jpg");
+    height: 100vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.link{
+    text-decoration: none;
+    color: #683217;
+    font-size: 60px;
+}
+.link:focus, .link:hover, .link:visited, .link:link,.link:active {
+    text-decoration: none;
+}
+.link:focus, .link:hover{
+    color: #371809;
+}
+
+.nav-ul{
+    margin-left: 50px;
+}
+
+.nav-link{
+    font-size: 25px;
+    margin: auto 10px auto 10px;
+}
+
