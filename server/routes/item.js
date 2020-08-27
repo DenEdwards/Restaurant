@@ -7,7 +7,8 @@ router.route("/add").post((req,res) =>{
         name: req.body.name,
         description: req.body.description,
         price: req.body.price,
-        image: req.body.image
+        image: req.body.image,
+        type: req.body.type
     });
 
     newItem.save()
@@ -27,7 +28,8 @@ router.route("/update/:id").post((req,res)=>{
             updateItem.name = req.body.name,
             updateItem.description= req.body.description,
             updateItem.price= req.body.price,
-            updateItem.image= req.body.image
+            updateItem.image= req.body.image,
+            updateItem.type= req.body.type
 
             updateItem.save()
                 .then(item=>res.json(item.name + " was updated."))

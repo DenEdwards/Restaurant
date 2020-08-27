@@ -10,16 +10,19 @@ const itemSchema = new mongoose.Schema({
     description:{
         type: String,
         required: true,
-        unique: true,
         trim: true
     },
     price:{
         type:Number,
         required: true,
-        unique: true,
         trim: true
     },
     image:{
+        type: String,
+        required: true,
+        trim: true
+    },
+    type:{
         type: String,
         required: true,
         trim: true

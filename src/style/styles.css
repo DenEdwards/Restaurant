@@ -1,3 +1,13 @@
+hr{
+    width: 50%;
+    color: #683217;
+}
+
+/* App */
+.app{
+    font-family: 'Londrina Solid', cursive;
+}
+
 /* Head Container */
 .head-container{
     font-family: 'Londrina Solid', cursive;
@@ -7,6 +17,7 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    border-bottom: 2px solid #683217;
 }
 
 .link{
@@ -30,3 +41,51 @@
     margin: auto 10px auto 10px;
 }
 
+/* Menu */
+.menu{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-section{
+    width: 100%;
+}
+
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    justify-content: space-around;
+}
+
+.menu-header{
+    width: fit-content;
+    background-color: #371809;
+    color: white;
+    padding: 5px 20px;
+    font-size: 60px;
+    margin: 20px auto 40px auto;
+}
+
+.menu-title{
+    text-align: center;
+    color: #683217;
+    font-size: 40px;
+}
+
+/* Menu Card */
+.menu-card{
+    height: 300px;
+    width: 300px;
+    margin: 10px 10px 40px 10px;
+}
+
+.menu-card img{
+    height: 200px;
+    width: 100%;
+}
+
+.card-des{
+    margin-top: 15px;
+}
