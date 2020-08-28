@@ -5,9 +5,11 @@ function MenuCard(props){
         <div className="menu-card">
             <img src={require("../style/images/"+props.image+".jpg")} alt={props.image} ></img>
             <div className="card-des">
-                <strong>{props.name} - ${props.price}</strong>
-                <br></br>
-                {props.description}
+                <div className="card-title">
+                    <strong>{props.name} - ${props.price}</strong>
+                    <br></br>
+                    <p>{props.description}</p>
+                </div>
             </div>
             
         </div>

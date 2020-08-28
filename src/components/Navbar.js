@@ -15,7 +15,7 @@ function Navbar(){
                             <a className="nav-link link" href="#menu">Menu</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link link" href="#">Contact Us</a>
+                            <a className="nav-link link" href="#">Contact</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link link" href="#">About</a>
