@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import MenuCard from './MenuCard';
 import axios from "axios";
+import Fade from 'react-reveal/Fade';
 
 function Menu(){
 
@@ -46,33 +47,35 @@ function Menu(){
             <div className="menu-header">
                 <div>Our Menu</div>
             </div>
-            <div className="menu-section">
-                <div className="menu-title">
-                    Drinks
+            <Fade bottom cascade >
+                <div className="menu-section">
+                    <div className="menu-title">
+                        Drinks
+                    </div>
+                    <hr></hr>
+                    <div className="menu-items">
+                        {state.drinks.map(createCard)}
+                    </div>
                 </div>
-                <hr></hr>
-                <div className="menu-items">
-                    {state.drinks.map(createCard)}
+                <div className="menu-section">
+                    <div className="menu-title">
+                        Mains
+                    </div>
+                    <hr></hr>
+                    <div className="menu-items">
+                        {state.mains.map(createCard)}
+                    </div>
                 </div>
-            </div>
-            <div className="menu-section">
-                <div className="menu-title">
-                    Mains
+                <div className="menu-section">
+                    <div className="menu-title">
+                        Desserts
+                    </div>
+                    <hr></hr>
+                    <div className="menu-items">
+                        {state.desserts.map(createCard)}
+                    </div>
                 </div>
-                <hr></hr>
-                <div className="menu-items">
-                    {state.mains.map(createCard)}
-                </div>
-            </div>
-            <div className="menu-section">
-                <div className="menu-title">
-                    Desserts
-                </div>
-                <hr></hr>
-                <div className="menu-items">
-                    {state.desserts.map(createCard)}
-                </div>
-            </div>
+            </Fade>
         </div>
     );
 }

@@ -23,7 +23,7 @@ hr{
 .link{
     text-decoration: none;
     color: #6e3409;
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 40px;
 }
 .link:focus, .link:hover, .link:visited, .link:link,.link:active {
@@ -34,9 +34,11 @@ hr{
 }
 
 .navbar{
-    position: sticky;
+    position: fixed;
     background-color: rgb(248, 243, 234);
     padding: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-ul{
@@ -73,7 +75,7 @@ hr{
     color: #6e3409;
     padding: 5px 20px;
     font-size: 80px;
-    margin: 20px auto 40px auto;
+    margin: 80px auto 40px auto;
     border-top: 3px #6e3409 solid;
     border-bottom: 3px #6e3409 solid;
 
