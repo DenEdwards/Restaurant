@@ -44,7 +44,7 @@ function Menu(){
     return(
         <div className="menu" id="menu">
             <div className="menu-header">
-                Our Menu
+                <div>Our Menu</div>
             </div>
             <div className="menu-section">
                 <div className="menu-title">

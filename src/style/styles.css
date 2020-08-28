@@ -23,7 +23,8 @@ hr{
 .link{
     text-decoration: none;
     color: #6e3409;
-    font-size: 60px;
+    font-size: 90px;
+    margin-left: 50px;
 }
 .link:focus, .link:hover, .link:visited, .link:link,.link:active {
     text-decoration: none;
@@ -33,12 +34,12 @@ hr{
 }
 
 .nav-ul{
-    margin-left: 50%;
+    margin: 15px auto  auto 40%;
 }
 
 .nav-link{
-    font-size: 25px;
-    margin: auto 10px auto 10px;
+    font-size: 30px;
+    margin: auto 30px auto 10px;
 }
 
 /* Menu */
@@ -61,32 +62,44 @@ hr{
 }
 
 .menu-header{
-    width: fit-content;
+    width: 100%;
+    align-items: center;
     background-color: #6e3409;
     color: white;
     padding: 5px 20px;
-    font-size: 60px;
+    font-size: 80px;
     margin: 20px auto 40px auto;
+}
+.menu-header div{
+    width: fit-content;
+    margin: auto;
 }
 
 .menu-title{
     text-align: center;
     color: #6e3409;
-    font-size: 40px;
+    font-size: 55px;
 }
 
 /* Menu Card */
 .menu-card{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     margin: 10px 10px 40px 10px;
 }
 
 .menu-card img{
-    height: 200px;
+    height: 250px;
     width: 100%;
 }
 
 .card-des{
     margin-top: 15px;
+}
+
+.card-title strong{
+    font-size: 20px;
+}
+.card-title p{
+    font-size: 18px;
 }
