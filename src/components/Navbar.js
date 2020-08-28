@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaFacebookF } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';
 
@@ -8,11 +7,11 @@ function Navbar(){
     return(
         <div>
             <nav className="navbar navbar-expand-lg">
-                <Link to="/" className="link">Cinnamon</Link>
+                <a className="link" href="#header">Cinnamon</a>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto nav-ul">
                         <li className="nav-item active">
-                            <Link className="nav-link link" to="/">Home<span className="sr-only">(current)</span></Link>
+                            <a className="nav-link link" href="#header">Home<span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link link" href="#menu">Menu</a>
