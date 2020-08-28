@@ -9,10 +9,10 @@ function Navbar(){
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto nav-ul">
                         <li className="nav-item active">
-                            <a className="nav-link link" href="#">Home<span className="sr-only">(current)</span></a>
+                            <Link className="nav-link link" to="/">Home<span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link link" href="#">Menu</a>
+                            <a className="nav-link link" href="#menu">Menu</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link link" href="#">Contact Us</a>

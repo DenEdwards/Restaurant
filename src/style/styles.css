@@ -1,6 +1,6 @@
 hr{
     width: 50%;
-    color: #683217;
+    color: #6e3409;
 }
 
 /* App */
@@ -17,12 +17,12 @@ hr{
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    border-bottom: 2px solid #683217;
+    border-bottom: 3px solid #6e3409;
 }
 
 .link{
     text-decoration: none;
-    color: #683217;
+    color: #6e3409;
     font-size: 60px;
 }
 .link:focus, .link:hover, .link:visited, .link:link,.link:active {
@@ -33,7 +33,7 @@ hr{
 }
 
 .nav-ul{
-    margin-left: 50px;
+    margin-left: 50%;
 }
 
 .nav-link{
@@ -46,6 +46,7 @@ hr{
     margin: 20px 0;
     display: flex;
     flex-direction: column;
+    border-bottom: 3px solid #6e3409;
 }
 
 .menu-section{
@@ -61,7 +62,7 @@ hr{
 
 .menu-header{
     width: fit-content;
-    background-color: #371809;
+    background-color: #6e3409;
     color: white;
     padding: 5px 20px;
     font-size: 60px;
@@ -70,7 +71,7 @@ hr{
 
 .menu-title{
     text-align: center;
-    color: #683217;
+    color: #6e3409;
     font-size: 40px;
 }
 
