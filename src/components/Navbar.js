@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaFacebookF } from 'react-icons/fa';
+import { GrInstagram } from 'react-icons/gr';
+
 
 function Navbar(){
     return(
@@ -19,6 +22,12 @@ function Navbar(){
                         </li>
                         <li className="nav-item">
                             <a className="nav-link link" href="#">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link link" href="https://www.instagram.com/"><GrInstagram/></a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link link" href="https://www.facebook.com/"><FaFacebookF/></a>
                         </li>
                     </ul>
                 </div>

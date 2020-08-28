@@ -5,32 +5,38 @@ hr{
 
 /* App */
 .app{
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Head Container */
 .head-container{
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'Montserrat', sans-serif;
     background-color: #cccccc;
     background-image: url("./images/cinnamonStar.jpg");
     height: 100vh;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    border-bottom: 3px solid #6e3409;
 }
 
+/* Navbar */
 .link{
     text-decoration: none;
     color: #6e3409;
-    font-size: 90px;
-    margin-left: 50px;
+    font-size: 60px;
+    margin-left: 40px;
 }
 .link:focus, .link:hover, .link:visited, .link:link,.link:active {
     text-decoration: none;
 }
 .link:focus, .link:hover{
-    color: #371809;
+    color: #000000;
+}
+
+.navbar{
+    position: sticky;
+    background-color: rgb(248, 243, 234);
+    padding: 0;
 }
 
 .nav-ul{
@@ -38,8 +44,8 @@ hr{
 }
 
 .nav-link{
-    font-size: 30px;
-    margin: auto 30px auto 10px;
+    font-size: 25px;
+    margin: auto 10px auto 10px;
 }
 
 /* Menu */
@@ -64,11 +70,13 @@ hr{
 .menu-header{
     width: 100%;
     align-items: center;
-    background-color: #6e3409;
-    color: white;
+    color: #6e3409;
     padding: 5px 20px;
     font-size: 80px;
     margin: 20px auto 40px auto;
+    border-top: 3px #6e3409 solid;
+    border-bottom: 3px #6e3409 solid;
+
 }
 .menu-header div{
     width: fit-content;
@@ -85,7 +93,7 @@ hr{
 .menu-card{
     height: 350px;
     width: 350px;
-    margin: 10px 10px 40px 10px;
+    margin: 10px 10px 80px 10px;
 }
 
 .menu-card img{
@@ -98,8 +106,8 @@ hr{
 }
 
 .card-title strong{
-    font-size: 20px;
+    font-size: 18px;
 }
 .card-title p{
-    font-size: 18px;
+    font-size: 16px;
 }
