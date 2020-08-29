@@ -23,7 +23,7 @@ function Navbar(){
                             <a className="nav-link link" href="#">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link link" href="https://www.instagram.com/"><GrInstagram/></a>
+                            <a className="nav-link link" href="https://www.instagram.com/explore/tags/cinnamon/"><GrInstagram/></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link link" href="https://www.facebook.com/"><FaFacebookF/></a>
