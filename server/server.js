@@ -17,6 +17,8 @@ mongoose.connection.once("open", () => {
     console.log("Connection to MongoDB Atlas successful!");
 });
 
+console.log( process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
+
 
 app.get("/", (req,res) => {
     res.send("Hello");
