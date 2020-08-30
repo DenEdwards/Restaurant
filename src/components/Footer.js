@@ -10,10 +10,12 @@ export function Footer(){
 
     return(
         <footer>
-            Denzel Edwards © {year}
-            <a href="https://denedwards.github.io/"><GrPersonalComputer className="footer-icon"/></a>
-            <a href="https://github.com/DenEdwards"><DiGithubFull className="footer-git"/></a>
-            <a href="https://github.com/DenEdwards"><AiOutlineLinkedin className="footer-icon"/></a>
+            <div className="footer-container">
+                Denzel Edwards © {year}
+                <a href="https://denedwards.github.io/"><GrPersonalComputer className="footer-icon"/></a>
+                <a href="https://github.com/DenEdwards"><DiGithubFull className="footer-git"/></a>
+                <a href="https://github.com/DenEdwards"><AiOutlineLinkedin className="footer-icon"/></a>
+            </div>
         </footer>
     );
 }
