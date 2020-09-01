@@ -11,7 +11,7 @@ function Menu(){
         desserts: []
     });
 
-    axios.get("http://localhost:3000/items")
+    axios.get("https://cinnamoneatery.herokuapp.com/items")
         .then(response =>{
             setstate(prevVal => {
                 return ({
