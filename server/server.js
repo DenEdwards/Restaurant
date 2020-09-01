@@ -18,12 +18,14 @@ mongoose.connection.once("open", () => {
     console.log("Connection to MongoDB Atlas successful!");
 });
 
-console.log( process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
 
-
-app.get("/", (req,res) => {
-    res.send("Hello");
-});
+app.get('/*', function(req, res) {
+    res.sendFile(path.resolve(__dirname, '../public/index.html'), function(err) {
+        if (err) {
+            res.status(500).send(err)
+        }
+    })
+})
 
 app.listen(port, () =>{
     console.log(`Example app listening at http://localhost:${port}`)
