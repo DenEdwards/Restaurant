@@ -8,7 +8,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import {Footer} from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { HashRouter as Router, Route} from "react-router-dom";
 
 function App() {
   return (

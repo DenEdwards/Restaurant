@@ -11,7 +11,7 @@ function Menu(){
         desserts: []
     });
 
-    axios.get("http://localhost:3001/items")
+    axios.get("http://localhost:3000/items")
         .then(response =>{
             setstate(prevVal => {
                 return ({
