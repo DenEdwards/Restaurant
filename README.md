@@ -1,6 +1,55 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://planet-store.herokuapp.com/">
+    <img src="READMEPic.PNG" alt="Logo" width="500" height="auto">
+  </a>
+
+  <h3 align="center">Cinnamon</h3>
+
+  <p align="center">
+    A cafe website using Mongo, Express, React and Node.
+    <br />
+    <a href="https://github.com/DenEdwards/Restaurant"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://cinnamoneatery.herokuapp.com/#/">View Demo</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+The website for cafe and bistro Cinnamon where the user is able to browse the wide selection of food available in the store.
+
+### Built With
+
+* [React](https://reactjs.org/)
+
+<!-- GETTING STARTED -->
+## Getting Started
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -37,32 +86,35 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- CONTACT -->
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Denzel Edwards](https://https://denedwards.github.io/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Link: [https://github.com/DenEdwards/Restaurant](https://github.com/DenEdwards/Restaurant)
 
-### Code Splitting
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Heroku](https://heroku.com)
+* [Img Shields](https://shields.io)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/DenEdwards/Restaurant.svg?style=flat-square
+[contributors-url]: https://github.com/DenEdwards/Restaurant/graphs/contributors
 
-### Advanced Configuration
+[forks-shield]: https://img.shields.io/github/forks/DenEdwards/Restaurant.svg?style=flat-square
+[forks-url]: https://github.com/DenEdwards/Restaurant/network/members
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+[stars-shield]: https://img.shields.io/github/stars/DenEdwards/Restaurant.svg?style=flat-square
+[stars-url]: https://github.com/DenEdwards/Restaurant/stargazers
 
-### Deployment
+[issues-shield]: https://img.shields.io/github/issues/DenEdwards/Restaurant
+[issues-url]: https://github.com/DenEdwards/Restaurant/issues
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/denzel-edwards-093927170/
