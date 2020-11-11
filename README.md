@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://planet-store.herokuapp.com/">
+  <a href="https://cinnamoneatery.herokuapp.com/#/">
     <img src="READMEPic.PNG" alt="Logo" width="500" height="auto">
   </a>
 
